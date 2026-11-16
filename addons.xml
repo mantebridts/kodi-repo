@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.mantebridts" name="mantebridts Repository" version="1.0.0" provider-name="mantebridts">
+  <extension point="xbmc.addon.repository" name="mantebridts Repository">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/mantebridts/kodi-repo/main/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/mantebridts/kodi-repo/main/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/mantebridts/kodi-repo/main/zips/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Own Kodi add-ons and fixes</summary>
+    <platform>all</platform>
+  </extension>
+</addon><addon id="plugin.video.vrt.nu.htpc" name="VRT MAX htpc" version="1.0.0" provider-name="Martijn Moreel, dagwieers, mediaminister">
+  <requires>
+    <import addon="resource.images.studios.white" version="0.0.30"/>
+    <import addon="script.module.dateutil" version="2.8.2"/>
+    <import addon="script.module.inputstreamhelper" version="0.8.4"/>
+    <import addon="script.module.routing" version="0.2.3"/>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="resources/lib/addon_entry.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="resources/lib/service_entry.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Watch videos from VRT MAX</summary>
+    <description lang="en_GB">VRT MAX is the video-on-demand platform of the Flemish public broadcaster (VRT).
+
+  - Track the programs you like
+  - List all videos alphabetically by program, category, channel or feature
+  - Watch live streams from VRT 1, Canvas, Ketnet, Ketnet Junior and Sporza
+  - Discover recently added or soon offline content
+  - Browse the online TV guides or search VRT MAX
+
+[I]The VRT MAX add-on is not endorsed by VRT, and is provided 'as is' without any warranty of any kind.[/I]</description>
+    <disclaimer lang="en_GB">The VRT MAX add-on is not endorsed by VRT, and is provided 'as is' without any warranty of any kind.</disclaimer>
+    <summary lang="nl_NL">VRT MAX videos bekijken.</summary>
+    <description lang="nl_NL">VRT MAX is het video-on-demand platform van de Vlaamse publieke omroep (VRT).
+
+  - Volg je favoriete tv-programma's
+  - Raadpleeg video's op basis van programma, categorie, kanaal of feature
+  - Bekijk de livestreams van VRT 1, Canvas, Ketnet, Ketnet Junior en Sporza
+  - Ontdek recent toegevoegde of binnenkort offline video's
+  - Doorblader de online tv-gids of doorzoek VRT MAX
+
+[I]Deze VRT MAX add-on wordt niet ondersteund door de VRT, en wordt aangeboden 'as is', zonder enige garantie.[/I]</description>
+    <disclaimer lang="nl_NL">Deze VRT MAX add-on wordt niet ondersteund door de VRT, en wordt aangeboden 'as is', zonder enige garantie.</disclaimer>
+    <language>en nl</language>
+    <platform>all</platform>
+    <license>GPL-3.0-only</license>
+    <forum>https://www.facebook.com/kodivrtnu/</forum>
+    <website>https://github.com/add-ons/plugin.video.vrt.nu/wiki</website>
+    <source>https://github.com/add-ons/plugin.video.vrt.nu</source>
+    <news>
+v2.5.50 (2026-01-20)
+- Fix season menu listings
+
+v2.5.49 (2026-01-14)
+- Fix season menu listings
+
+v2.5.48 (2026-01-08)
+- Fix menu listings after api change
+
+v2.5.47 (2025-12-21)
+- Fix IPTV Manager EPG
+
+v2.5.46 (2025-11-26)
+- Fix TV guide menu listings
+- Improve season menu listings
+
+v2.5.45 (2025-10-29)
+- Fix TV guide menu listings
+
+v2.5.44 (2025-10-10)
+- Improve TV guide menu listings
+- Fix api requests for long episode lists
+
+v2.5.43 (2025-09-15)
+- Fix TV guide menu listings
+
+v2.5.42 (2025-08-29)
+- Fix api calls
+
+v2.5.41 (2025-08-28)
+- Updated various api calls
+
+v2.5.40 (2025-08-13)
+- Fixed incorrect item count in menu listings
+
+v2.5.39 (2025-07-20)
+- Fix category menu listings
+
+v2.5.38 (2025-05-12)
+- Fix Ketnet Jr livestream
+
+v2.5.37 (2025-04-04)
+- Fix DRM streams
+
+v2.5.36 (2025-03-03)
+- Fix program listings
+
+v2.5.35 (2025-02-26)
+- Fix episode listings
+
+v2.5.34 (2025-02-04)
+- Fix watching VRT MAX abroad
+- Fix Sporza IPTV Manager EPG
+
+v2.5.33 (2024-12-01)
+- Fix search
+- Fix category menu listings
+
+v2.5.32 (2024-05-21)
+- Fix search
+- Fix program menu listings
+
+v2.5.31 (2024-04-21)
+- Fix program menu listings
+
+v2.5.30 (2024-04-16)
+- Fix playing from TV guide
+    </news>
+    <assets>
+      <icon>resources/media/icon.png</icon>
+      <fanart>resources/media/fanart.png</fanart>
+      <screenshot>resources/media/screenshot01.jpg</screenshot>
+      <screenshot>resources/media/screenshot02.jpg</screenshot>
+      <screenshot>resources/media/screenshot03.jpg</screenshot>
+      <screenshot>resources/media/screenshot04.jpg</screenshot>
+    </assets>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+  </extension>
+</addon>
+</addons>
